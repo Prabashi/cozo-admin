@@ -641,7 +641,7 @@
     animation: am-moving-dashes 1s linear infinite
 }
 
-/* @ -webkit-keyframes am-moving-dashes {
+@ -webkit-keyframes am-moving-dashes {
     100% {
         stroke-dashoffset: -31px
     }
@@ -651,14 +651,14 @@
     100% {
         stroke-dashoffset: -31px
     }
-} */
+}
 
 .lastBullet {
     -webkit-animation: am-pulsating 1s ease-out infinite;
     animation: am-pulsating 1s ease-out infinite
 }
 
-/* @ -webkit-keyframes am-pulsating {
+@ -webkit-keyframes am-pulsating {
     0% {
         stroke-opacity: 1;
         stroke-width: 0
@@ -678,7 +678,7 @@
         stroke-opacity: 0;
         stroke-width: 50px
     }
-} */
+}
 
 .amcharts-graph-column-front {
     -webkit-transition: all .3s .3s ease-out;
@@ -702,7 +702,7 @@
     animation: am-draw 40s
 }
 
-/* @ -webkit-keyframes am-draw {
+@ -webkit-keyframes am-draw {
     0% {
         stroke-dashoffset: 500%
     }
@@ -718,7 +718,7 @@
     100% {
         stroke-dashoffset: 0
     }
-} */
+}
 /*--------------------------------------------------
     8. Animated Pie Chart
 ----------------------------------------------------*/
@@ -737,7 +737,7 @@
     animation: am-moving-dashes 1s linear infinite
 }
 
-/* @ -webkit-keyframes am-moving-dashes {
+@ -webkit-keyframes am-moving-dashes {
     100% {
         stroke-dashoffset: -28px
     }
@@ -747,7 +747,7 @@
     100% {
         stroke-dashoffset: -28px
     }
-} */
+}
 
 .cke {
     -webkit-border-radius: 2px;
@@ -1069,13 +1069,13 @@ div.dt-button:last-child {
     float: right
 }
 
-/* .dataTable .row-details.row-details-close {
+.dataTable .row-details.row-details-close {
     background: url(../img/datatable-row-openclose.png) no-repeat
 }
 
 .dataTable .row-details.row-details-open {
     background: url(../img/datatable-row-openclose.png) 0 -23px no-repeat
-} */
+}
 
 .dataTable td .popover-content .btn-group {
     position: static !important

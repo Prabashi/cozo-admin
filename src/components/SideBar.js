@@ -62,7 +62,7 @@ class SideBar extends React.Component {
 								</a>
 								<ul className="sub-menu">
 									<li className="nav-item">
-										<a href="new_vendors.html" className="nav-link ">
+										<a href="/newVendor" className="nav-link ">
 											<span className="title">New applications</span>
 										</a>
 									</li>
