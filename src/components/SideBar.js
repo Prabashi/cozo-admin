@@ -67,12 +67,12 @@ class SideBar extends React.Component {
 										</a>
 									</li>
 									<li className="nav-item">
-										<a href="manage_products.html" className="nav-link ">
+										<a href="/manageProduct" className="nav-link ">
 											<span className="title">Manage Registered Vendors</span>
 										</a>
 									</li>
 									<li className="nav-item">
-										<a href="payments.html" className="nav-link ">
+										<a href="/payment" className="nav-link ">
 											<span className="title">Payment</span>
 										</a>
 									</li>
@@ -80,7 +80,7 @@ class SideBar extends React.Component {
 							</li>
 
 							<li className="nav-item">
-								<a href="settings.html" className="nav-link nav-toggle">
+								<a href="/settings" className="nav-link nav-toggle">
 									<i className="material-icons">settings</i>
 									<span className="title">Settings</span>
 								</a>

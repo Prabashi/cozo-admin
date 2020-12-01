@@ -2,7 +2,6 @@ import React from 'react';
 // import { Link } from 'react-router-dom';
 import NavigationPanel from '../components/NavigationPanel';
 import Footer from '../components/Footer';
-import PageBar from '../components/PageBar';
 import SideBar from '../components/SideBar';
 import NewVendors from '../components/NewVendors';
 
@@ -14,12 +13,7 @@ class NewVendor extends React.Component {
             <NavigationPanel></NavigationPanel>
             <div className="page-container">
                 <SideBar></SideBar>
-                <div className="page-content-wrapper">
-                <div className="page-content">
-                    <PageBar></PageBar>
-					<NewVendors></NewVendors>
-                </div>
-            </div>
+                <NewVendors></NewVendors>
             </div>
             <Footer></Footer>
             </div>

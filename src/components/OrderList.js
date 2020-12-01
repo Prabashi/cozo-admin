@@ -4,6 +4,20 @@ import { Link } from 'react-router-dom';
 class OrderList extends React.Component {
     render() {
        return (
+        <div class="page-content-wrapper">
+        <div class="page-content">
+            <div class="page-bar">
+                <div class="page-title-breadcrumb">
+                    <div class=" pull-left">
+                        <div class="page-title">Manage Orders</div>
+                    </div>
+                    <ol class="breadcrumb page-breadcrumb pull-right">
+                        <li><i class="fa fa-home"></i>&nbsp;<a class="parent-item" href="index.html">Home</a>&nbsp;<i class="fa fa-angle-right"></i>
+                        </li>
+                        <li class="active"><a class="parent-item" href="">Order Management</a></li>
+                    </ol>
+                </div>
+            </div>
             <div className="row">
             <div className="col-md-12">
                 <div className="card card-box">
@@ -153,6 +167,8 @@ class OrderList extends React.Component {
                     </div>
                 </div>
             </div>
+        </div>
+        </div>
         </div>
        );
     }

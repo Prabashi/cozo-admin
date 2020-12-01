@@ -3,9 +3,9 @@ import React from 'react';
 import NavigationPanel from '../components/NavigationPanel';
 import Footer from '../components/Footer';
 import SideBar from '../components/SideBar';
-import RegisteredVendors from '../components/RegisteredVendors';
+import ManageProductComponent from '../components/ManageProductComponent';
 
-class DashBoard extends React.Component {
+class NewVendor extends React.Component {
     render() {
        return (
         <div className="page-header-fixed sidemenu-closed-hidelogo page-content-white page-md header-white dark-sidebar-color logo-dark">
@@ -13,7 +13,7 @@ class DashBoard extends React.Component {
             <NavigationPanel></NavigationPanel>
             <div className="page-container">
                 <SideBar></SideBar>
-                <RegisteredVendors></RegisteredVendors>
+                <ManageProductComponent></ManageProductComponent>
             </div>
             <Footer></Footer>
             </div>
@@ -22,4 +22,4 @@ class DashBoard extends React.Component {
     }
  }
 
- export default DashBoard;
+ export default NewVendor;
