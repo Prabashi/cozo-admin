@@ -5,6 +5,8 @@ import ManageProduct from './pages/ManageProduct';
 import NewVendor from './pages/NewVendor';
 import PaymentPage from './pages/PaymentPage';
 import Settings from './pages/Settings';
+import UserProfile from './pages/UserProfile';
+import EmailInbox from './pages/EmailInbox';
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
@@ -31,6 +33,12 @@ function App() {
           </Route>    
           <Route path="/settings">
             <Settings />
+          </Route>
+          <Route path="/userProfile">
+            <UserProfile />
+          </Route>
+          <Route path="/emailInbox">
+            <EmailInbox />
           </Route>    
         </Switch>
       </BrowserRouter>

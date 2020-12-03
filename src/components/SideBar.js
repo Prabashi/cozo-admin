@@ -24,10 +24,10 @@ class SideBar extends React.Component {
 										<div className="profile-usertitle-job"> Manager </div>
 									</div>
 									<div className="sidebar-userpic-btn">
-										<a className="tooltips" href="user_profile.html" data-placement="top" data-original-title="Profile">
+										<a className="tooltips" href="/userProfile" data-placement="top" data-original-title="Profile">
 											<i className="material-icons">person_outline</i>
 										</a>
-										<a className="tooltips" href="email_inbox.html" data-placement="top" data-original-title="Mail">
+										<a className="tooltips" href="/emailInbox" data-placement="top" data-original-title="Mail">
 											<i className="material-icons">mail_outline</i>
 										</a>
 										<a className="tooltips" href="chat.html" data-placement="top" data-original-title="Chat">
